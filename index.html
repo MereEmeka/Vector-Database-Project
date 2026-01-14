@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mere</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mere.com</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <h1 class="colored-name">
-   <span class="blue">M</span>
-   <span class="red">E</span>
-   <span class="yellow">R</span>
-   <span class="gold">E</span>
-  </h1>
 
-    <div class="search-box">
-      <input type="text" placeholder="Search Mere or type a URL">
+  <!-- Top Navigation -->
+  <div class="top-nav">
+    <a href="#">Gmail</a>
+    <a href="#">Images</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <div class="logo">
+      <span>M</span><span>E</span><span>R</span><span>E</span>
     </div>
 
-    <div class="buttons">
-      <button>Mere Search</button>
-      <button>I'm Feeling Lucky</button>
-    </div>
+    <form action="https://www.google.com/search" method="get">
+      <input
+        type="text"
+        name="q"
+        class="search-box"
+        placeholder="Search Mere or type a URL"
+      />
+
+      <div class="buttons">
+        <button type="submit">Mere Search</button>
+        <button type="submit" name="btnI" value="1">I'm Feeling Lucky</button>
+      </div>
+    </form>
+  </div>
 
 </body>
 </html>
