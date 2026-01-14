@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fff;
+}
+
+.colored-name {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.gold {
+  color: gold;
+}
+
+.logo {
+  width: 272px;
+  height: 92px;
+}
+
+.search-box {
+  margin: 20px auto;
+  width: 50%;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #dcdcdc;
+  border-radius: 24px;
+  outline: none;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #5f6368;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+
